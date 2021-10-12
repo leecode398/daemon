@@ -1,0 +1,272 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/lee/Downloads/dhms_daemon/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/c436bca6/
+%.o	Makefile	/^%.o:%.c$/;"	t
+CC	Makefile	/^CC=\/home\/jess\/arm-linux-gnueabi\/bin\/arm-linux-gnueabi-gcc$/;"	m
+CFLAG	Makefile	/^CFLAG=-I\/home\/jess\/cross-compile\/zlog\/include$/;"	m
+CJSON_CDECL	cJSON.c	/^    void (CJSON_CDECL *deallocate)(void *pointer);$/;"	m	struct:internal_hooks	typeref:typename:void (* deallocate)(void * pointer)	file:
+CJSON_CDECL	cJSON.c	/^    void *(CJSON_CDECL *allocate)(size_t size);$/;"	m	struct:internal_hooks	typeref:typename:void * (* allocate)(size_t size)	file:
+CJSON_CDECL	cJSON.c	/^    void *(CJSON_CDECL *reallocate)(void *pointer, size_t size);$/;"	m	struct:internal_hooks	typeref:typename:void * (* reallocate)(void * pointer,size_t size)	file:
+CJSON_CDECL	cJSON.h	/^      void (CJSON_CDECL *free_fn)(void *ptr);$/;"	m	struct:cJSON_Hooks	typeref:typename:void (* free_fn)(void * ptr)
+CJSON_CDECL	cJSON.h	/^      void *(CJSON_CDECL *malloc_fn)(size_t sz);$/;"	m	struct:cJSON_Hooks	typeref:typename:void * (* malloc_fn)(size_t sz)
+CJSON_CDECL	cJSON.h	/^#define CJSON_CDECL /;"	d
+CJSON_EXPORT_SYMBOLS	cJSON.h	/^#define CJSON_EXPORT_SYMBOLS$/;"	d
+CJSON_NESTING_LIMIT	cJSON.h	/^#define CJSON_NESTING_LIMIT /;"	d
+CJSON_PUBLIC	cJSON.h	/^#define CJSON_PUBLIC(/;"	d
+CJSON_STDCALL	cJSON.h	/^#define CJSON_STDCALL /;"	d
+CJSON_VERSION_MAJOR	cJSON.h	/^#define CJSON_VERSION_MAJOR /;"	d
+CJSON_VERSION_MINOR	cJSON.h	/^#define CJSON_VERSION_MINOR /;"	d
+CJSON_VERSION_PATCH	cJSON.h	/^#define CJSON_VERSION_PATCH /;"	d
+DAEMON_LIST_MAX	dhms_process.h	/^#define DAEMON_LIST_MAX /;"	d
+LDFLAG	Makefile	/^LDFLAG=-L\/home\/jess\/cross-compile\/zlog\/lib -lzlog$/;"	m
+LOCKFILE	dhms_daemon.c	/^#define LOCKFILE /;"	d	file:
+LOCKMODE	dhms_daemon.c	/^#define LOCKMODE /;"	d	file:
+MAX_RETRY_COUNT	dhms_process.c	/^#define MAX_RETRY_COUNT /;"	d	file:
+NAN	cJSON.c	/^#define NAN /;"	d	file:
+ONE_ROW_MAX_CHR	dhms_process.c	/^#define ONE_ROW_MAX_CHR /;"	d	file:
+STRIP	Makefile	/^STRIP=\/home\/jess\/arm-linux-gnueabi\/bin\/arm-linux-gnueabi-strip$/;"	m
+VERSION_FILE_NAME	dhms_process.c	/^#define VERSION_FILE_NAME /;"	d	file:
+_CRT_SECURE_NO_DEPRECATE	cJSON.c	/^#define _CRT_SECURE_NO_DEPRECATE$/;"	d	file:
+__WINDOWS__	cJSON.h	/^#define __WINDOWS__$/;"	d
+__anon2ade57650108	dhms_process.h	/^{$/;"	s
+__anon2ade57650208	dhms_process.h	/^{$/;"	s
+__anon7b2d70730108	cJSON.c	/^typedef struct {$/;"	s	file:
+__anon7b2d70730208	cJSON.c	/^{$/;"	s	file:
+__anon7b2d70730308	cJSON.c	/^{$/;"	s	file:
+add_item_to_array	cJSON.c	/^static cJSON_bool add_item_to_array(cJSON *array, cJSON *item)$/;"	f	typeref:typename:cJSON_bool	file:
+add_item_to_object	cJSON.c	/^static cJSON_bool add_item_to_object(cJSON * const object, const char * const string, cJSON * co/;"	f	typeref:typename:cJSON_bool	file:
+all	Makefile	/^all:$(objects)$/;"	t
+already_running	dhms_daemon.c	/^int already_running(const char *filename)$/;"	f	typeref:typename:int
+arg	dhms_process.h	/^	char ** arg;$/;"	m	struct:__anon2ade57650108	typeref:typename:char **
+arglen	dhms_process.h	/^	unsigned int arglen;$/;"	m	struct:__anon2ade57650108	typeref:typename:unsigned int
+backup_process	dhms_process.c	/^static int backup_process(char * process_path)$/;"	f	typeref:typename:int	file:
+buffer	cJSON.c	/^    unsigned char *buffer;$/;"	m	struct:__anon7b2d70730308	typeref:typename:unsigned char *	file:
+buffer_at_offset	cJSON.c	/^#define buffer_at_offset(/;"	d	file:
+buffer_skip_whitespace	cJSON.c	/^static parse_buffer *buffer_skip_whitespace(parse_buffer * const buffer)$/;"	f	typeref:typename:parse_buffer *	file:
+c	dhms_daemon.c	/^zlog_category_t *c;$/;"	v	typeref:typename:zlog_category_t *
+cJSON	cJSON.h	/^typedef struct cJSON$/;"	s
+cJSON	cJSON.h	/^} cJSON;$/;"	t	typeref:struct:cJSON
+cJSON_AddArrayToObject	cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddArrayToObject(cJSON * const object, const char * const name)$/;"	f	typeref:typename:cJSON *
+cJSON_AddBoolToObject	cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddBoolToObject(cJSON * const object, const char * const name, const /;"	f	typeref:typename:cJSON *
+cJSON_AddFalseToObject	cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddFalseToObject(cJSON * const object, const char * const name)$/;"	f	typeref:typename:cJSON *
+cJSON_AddItemReferenceToArray	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_AddItemReferenceToArray(cJSON *array, cJSON *item)$/;"	f	typeref:typename:cJSON_bool
+cJSON_AddItemReferenceToObject	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_AddItemReferenceToObject(cJSON *object, const char *string, cJSON/;"	f	typeref:typename:cJSON_bool
+cJSON_AddItemToArray	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_AddItemToArray(cJSON *array, cJSON *item)$/;"	f	typeref:typename:cJSON_bool
+cJSON_AddItemToObject	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_AddItemToObject(cJSON *object, const char *string, cJSON *item)$/;"	f	typeref:typename:cJSON_bool
+cJSON_AddItemToObjectCS	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_AddItemToObjectCS(cJSON *object, const char *string, cJSON *item)$/;"	f	typeref:typename:cJSON_bool
+cJSON_AddNullToObject	cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddNullToObject(cJSON * const object, const char * const name)$/;"	f	typeref:typename:cJSON *
+cJSON_AddNumberToObject	cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddNumberToObject(cJSON * const object, const char * const name, cons/;"	f	typeref:typename:cJSON *
+cJSON_AddObjectToObject	cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddObjectToObject(cJSON * const object, const char * const name)$/;"	f	typeref:typename:cJSON *
+cJSON_AddRawToObject	cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddRawToObject(cJSON * const object, const char * const name, const c/;"	f	typeref:typename:cJSON *
+cJSON_AddStringToObject	cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddStringToObject(cJSON * const object, const char * const name, cons/;"	f	typeref:typename:cJSON *
+cJSON_AddTrueToObject	cJSON.c	/^CJSON_PUBLIC(cJSON*) cJSON_AddTrueToObject(cJSON * const object, const char * const name)$/;"	f	typeref:typename:cJSON *
+cJSON_Array	cJSON.h	/^#define cJSON_Array /;"	d
+cJSON_ArrayForEach	cJSON.h	/^#define cJSON_ArrayForEach(/;"	d
+cJSON_Compare	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_Compare(const cJSON * const a, const cJSON * const b, const cJSON/;"	f	typeref:typename:cJSON_bool
+cJSON_CreateArray	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateArray(void)$/;"	f	typeref:typename:cJSON *
+cJSON_CreateArrayReference	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateArrayReference(const cJSON *child) {$/;"	f	typeref:typename:cJSON *
+cJSON_CreateBool	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateBool(cJSON_bool boolean)$/;"	f	typeref:typename:cJSON *
+cJSON_CreateDoubleArray	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateDoubleArray(const double *numbers, int count)$/;"	f	typeref:typename:cJSON *
+cJSON_CreateFalse	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateFalse(void)$/;"	f	typeref:typename:cJSON *
+cJSON_CreateFloatArray	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateFloatArray(const float *numbers, int count)$/;"	f	typeref:typename:cJSON *
+cJSON_CreateIntArray	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateIntArray(const int *numbers, int count)$/;"	f	typeref:typename:cJSON *
+cJSON_CreateNull	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateNull(void)$/;"	f	typeref:typename:cJSON *
+cJSON_CreateNumber	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateNumber(double num)$/;"	f	typeref:typename:cJSON *
+cJSON_CreateObject	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateObject(void)$/;"	f	typeref:typename:cJSON *
+cJSON_CreateObjectReference	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateObjectReference(const cJSON *child)$/;"	f	typeref:typename:cJSON *
+cJSON_CreateRaw	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateRaw(const char *raw)$/;"	f	typeref:typename:cJSON *
+cJSON_CreateString	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateString(const char *string)$/;"	f	typeref:typename:cJSON *
+cJSON_CreateStringArray	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateStringArray(const char *const *strings, int count)$/;"	f	typeref:typename:cJSON *
+cJSON_CreateStringReference	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateStringReference(const char *string)$/;"	f	typeref:typename:cJSON *
+cJSON_CreateTrue	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_CreateTrue(void)$/;"	f	typeref:typename:cJSON *
+cJSON_Delete	cJSON.c	/^CJSON_PUBLIC(void) cJSON_Delete(cJSON *item)$/;"	f	typeref:typename:void
+cJSON_DeleteItemFromArray	cJSON.c	/^CJSON_PUBLIC(void) cJSON_DeleteItemFromArray(cJSON *array, int which)$/;"	f	typeref:typename:void
+cJSON_DeleteItemFromObject	cJSON.c	/^CJSON_PUBLIC(void) cJSON_DeleteItemFromObject(cJSON *object, const char *string)$/;"	f	typeref:typename:void
+cJSON_DeleteItemFromObjectCaseSensitive	cJSON.c	/^CJSON_PUBLIC(void) cJSON_DeleteItemFromObjectCaseSensitive(cJSON *object, const char *string)$/;"	f	typeref:typename:void
+cJSON_DetachItemFromArray	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_DetachItemFromArray(cJSON *array, int which)$/;"	f	typeref:typename:cJSON *
+cJSON_DetachItemFromObject	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_DetachItemFromObject(cJSON *object, const char *string)$/;"	f	typeref:typename:cJSON *
+cJSON_DetachItemFromObjectCaseSensitive	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_DetachItemFromObjectCaseSensitive(cJSON *object, const char *string)$/;"	f	typeref:typename:cJSON *
+cJSON_DetachItemViaPointer	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_DetachItemViaPointer(cJSON *parent, cJSON * const item)$/;"	f	typeref:typename:cJSON *
+cJSON_Duplicate	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_Duplicate(const cJSON *item, cJSON_bool recurse)$/;"	f	typeref:typename:cJSON *
+cJSON_False	cJSON.h	/^#define cJSON_False /;"	d
+cJSON_GetArrayItem	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_GetArrayItem(const cJSON *array, int index)$/;"	f	typeref:typename:cJSON *
+cJSON_GetArraySize	cJSON.c	/^CJSON_PUBLIC(int) cJSON_GetArraySize(const cJSON *array)$/;"	f	typeref:typename:int
+cJSON_GetErrorPtr	cJSON.c	/^CJSON_PUBLIC(const char *) cJSON_GetErrorPtr(void)$/;"	f	typeref:typename:const char *
+cJSON_GetNumberValue	cJSON.c	/^CJSON_PUBLIC(double) cJSON_GetNumberValue(const cJSON * const item) $/;"	f	typeref:typename:double
+cJSON_GetObjectItem	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_GetObjectItem(const cJSON * const object, const char * const string)$/;"	f	typeref:typename:cJSON *
+cJSON_GetObjectItemCaseSensitive	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_GetObjectItemCaseSensitive(const cJSON * const object, const char * /;"	f	typeref:typename:cJSON *
+cJSON_GetStringValue	cJSON.c	/^CJSON_PUBLIC(char *) cJSON_GetStringValue(const cJSON * const item) $/;"	f	typeref:typename:char *
+cJSON_HasObjectItem	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_HasObjectItem(const cJSON *object, const char *string)$/;"	f	typeref:typename:cJSON_bool
+cJSON_Hooks	cJSON.h	/^typedef struct cJSON_Hooks$/;"	s
+cJSON_Hooks	cJSON.h	/^} cJSON_Hooks;$/;"	t	typeref:struct:cJSON_Hooks
+cJSON_InitHooks	cJSON.c	/^CJSON_PUBLIC(void) cJSON_InitHooks(cJSON_Hooks* hooks)$/;"	f	typeref:typename:void
+cJSON_InsertItemInArray	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_InsertItemInArray(cJSON *array, int which, cJSON *newitem)$/;"	f	typeref:typename:cJSON_bool
+cJSON_Invalid	cJSON.h	/^#define cJSON_Invalid /;"	d
+cJSON_IsArray	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsArray(const cJSON * const item)$/;"	f	typeref:typename:cJSON_bool
+cJSON_IsBool	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsBool(const cJSON * const item)$/;"	f	typeref:typename:cJSON_bool
+cJSON_IsFalse	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsFalse(const cJSON * const item)$/;"	f	typeref:typename:cJSON_bool
+cJSON_IsInvalid	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsInvalid(const cJSON * const item)$/;"	f	typeref:typename:cJSON_bool
+cJSON_IsNull	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsNull(const cJSON * const item)$/;"	f	typeref:typename:cJSON_bool
+cJSON_IsNumber	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsNumber(const cJSON * const item)$/;"	f	typeref:typename:cJSON_bool
+cJSON_IsObject	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsObject(const cJSON * const item)$/;"	f	typeref:typename:cJSON_bool
+cJSON_IsRaw	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsRaw(const cJSON * const item)$/;"	f	typeref:typename:cJSON_bool
+cJSON_IsReference	cJSON.h	/^#define cJSON_IsReference /;"	d
+cJSON_IsString	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsString(const cJSON * const item)$/;"	f	typeref:typename:cJSON_bool
+cJSON_IsTrue	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_IsTrue(const cJSON * const item)$/;"	f	typeref:typename:cJSON_bool
+cJSON_Minify	cJSON.c	/^CJSON_PUBLIC(void) cJSON_Minify(char *json)$/;"	f	typeref:typename:void
+cJSON_NULL	cJSON.h	/^#define cJSON_NULL /;"	d
+cJSON_New_Item	cJSON.c	/^static cJSON *cJSON_New_Item(const internal_hooks * const hooks)$/;"	f	typeref:typename:cJSON *	file:
+cJSON_Number	cJSON.h	/^#define cJSON_Number /;"	d
+cJSON_Object	cJSON.h	/^#define cJSON_Object /;"	d
+cJSON_Parse	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_Parse(const char *value)$/;"	f	typeref:typename:cJSON *
+cJSON_ParseWithLength	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_ParseWithLength(const char *value, size_t buffer_length)$/;"	f	typeref:typename:cJSON *
+cJSON_ParseWithLengthOpts	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_ParseWithLengthOpts(const char *value, size_t buffer_length, const c/;"	f	typeref:typename:cJSON *
+cJSON_ParseWithOpts	cJSON.c	/^CJSON_PUBLIC(cJSON *) cJSON_ParseWithOpts(const char *value, const char **return_parse_end, cJSO/;"	f	typeref:typename:cJSON *
+cJSON_Print	cJSON.c	/^CJSON_PUBLIC(char *) cJSON_Print(const cJSON *item)$/;"	f	typeref:typename:char *
+cJSON_PrintBuffered	cJSON.c	/^CJSON_PUBLIC(char *) cJSON_PrintBuffered(const cJSON *item, int prebuffer, cJSON_bool fmt)$/;"	f	typeref:typename:char *
+cJSON_PrintPreallocated	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_PrintPreallocated(cJSON *item, char *buffer, const int length, co/;"	f	typeref:typename:cJSON_bool
+cJSON_PrintUnformatted	cJSON.c	/^CJSON_PUBLIC(char *) cJSON_PrintUnformatted(const cJSON *item)$/;"	f	typeref:typename:char *
+cJSON_Raw	cJSON.h	/^#define cJSON_Raw /;"	d
+cJSON_ReplaceItemInArray	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_ReplaceItemInArray(cJSON *array, int which, cJSON *newitem)$/;"	f	typeref:typename:cJSON_bool
+cJSON_ReplaceItemInObject	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_ReplaceItemInObject(cJSON *object, const char *string, cJSON *new/;"	f	typeref:typename:cJSON_bool
+cJSON_ReplaceItemInObjectCaseSensitive	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_ReplaceItemInObjectCaseSensitive(cJSON *object, const char *strin/;"	f	typeref:typename:cJSON_bool
+cJSON_ReplaceItemViaPointer	cJSON.c	/^CJSON_PUBLIC(cJSON_bool) cJSON_ReplaceItemViaPointer(cJSON * const parent, cJSON * const item, c/;"	f	typeref:typename:cJSON_bool
+cJSON_SetIntValue	cJSON.h	/^#define cJSON_SetIntValue(/;"	d
+cJSON_SetNumberHelper	cJSON.c	/^CJSON_PUBLIC(double) cJSON_SetNumberHelper(cJSON *object, double number)$/;"	f	typeref:typename:double
+cJSON_SetNumberValue	cJSON.h	/^#define cJSON_SetNumberValue(/;"	d
+cJSON_SetValuestring	cJSON.c	/^CJSON_PUBLIC(char*) cJSON_SetValuestring(cJSON *object, const char *valuestring)$/;"	f	typeref:typename:char *
+cJSON_String	cJSON.h	/^#define cJSON_String /;"	d
+cJSON_StringIsConst	cJSON.h	/^#define cJSON_StringIsConst /;"	d
+cJSON_True	cJSON.h	/^#define cJSON_True /;"	d
+cJSON_Version	cJSON.c	/^CJSON_PUBLIC(const char*) cJSON_Version(void)$/;"	f	typeref:typename:const char *
+cJSON__h	cJSON.h	/^#define cJSON__h$/;"	d
+cJSON_bool	cJSON.h	/^typedef int cJSON_bool;$/;"	t	typeref:typename:int
+cJSON_free	cJSON.c	/^CJSON_PUBLIC(void) cJSON_free(void *object)$/;"	f	typeref:typename:void
+cJSON_malloc	cJSON.c	/^CJSON_PUBLIC(void *) cJSON_malloc(size_t size)$/;"	f	typeref:typename:void *
+cJSON_strdup	cJSON.c	/^static unsigned char* cJSON_strdup(const unsigned char* string, const internal_hooks * const hoo/;"	f	typeref:typename:unsigned char *	file:
+can_access_at_index	cJSON.c	/^#define can_access_at_index(/;"	d	file:
+can_read	cJSON.c	/^#define can_read(/;"	d	file:
+cannot_access_at_index	cJSON.c	/^#define cannot_access_at_index(/;"	d	file:
+case_insensitive_strcmp	cJSON.c	/^static int case_insensitive_strcmp(const unsigned char *string1, const unsigned char *string2)$/;"	f	typeref:typename:int	file:
+cast_away_const	cJSON.c	/^static void* cast_away_const(const void* string)$/;"	f	typeref:typename:void *	file:
+check_process_run_sta	dhms_process.c	/^static void check_process_run_sta(char * pname)$/;"	f	typeref:typename:void	file:
+check_update_process	dhms_process.c	/^static int check_update_process(char * process_path)$/;"	f	typeref:typename:int	file:
+child	cJSON.h	/^    struct cJSON *child;$/;"	m	struct:cJSON	typeref:struct:cJSON *
+cjson_min	cJSON.c	/^#define cjson_min(/;"	d	file:
+clean	Makefile	/^clean: $/;"	t
+cmd	dhms_process.h	/^	char * cmd;$/;"	m	struct:__anon2ade57650108	typeref:typename:char *
+compare_double	cJSON.c	/^static cJSON_bool compare_double(double a, double b)$/;"	f	typeref:typename:cJSON_bool	file:
+content	cJSON.c	/^    const unsigned char *content;$/;"	m	struct:__anon7b2d70730208	typeref:typename:const unsigned char *	file:
+create_reference	cJSON.c	/^static cJSON *create_reference(const cJSON *item, const internal_hooks * const hooks)$/;"	f	typeref:typename:cJSON *	file:
+daemon	dhms_process.h	/^	dhms_process_t * daemon;$/;"	m	struct:__anon2ade57650208	typeref:typename:dhms_process_t *
+daemon_list	dhms_process.c	/^dhms_process_t * daemon_list = NULL;$/;"	v	typeref:typename:dhms_process_t *
+daemon_list_num	dhms_process.c	/^unsigned int daemon_list_num = 0;$/;"	v	typeref:typename:unsigned int
+default_dhms_process_list	dhms_process.c	/^dhms_process_t default_dhms_process_list[]={$/;"	v	typeref:typename:dhms_process_t[]
+delete_daemon_list	parse.c	/^void delete_daemon_list()$/;"	f	typeref:typename:void
+depth	cJSON.c	/^    size_t depth; \/* How deeply nested (in arrays\/objects) is the input at the current offset./;"	m	struct:__anon7b2d70730208	typeref:typename:size_t	file:
+depth	cJSON.c	/^    size_t depth; \/* current nesting depth (for formatted printing) *\/$/;"	m	struct:__anon7b2d70730308	typeref:typename:size_t	file:
+dhms_daemon	dhms_daemon.c	/^static void dhms_daemon()$/;"	f	typeref:typename:void	file:
+dhms_daemon_h	dhms_process.h	/^#define dhms_daemon_h$/;"	d
+dhms_daemon_process	dhms_process.c	/^void dhms_daemon_process(dhms_process_t * dhms_process_list)$/;"	f	typeref:typename:void
+dhms_log	Makefile	/^define dhms_log$/;"	m
+dhms_process_manage_t	dhms_process.h	/^}dhms_process_manage_t;$/;"	t	typeref:struct:__anon2ade57650208
+dhms_process_t	dhms_process.h	/^}dhms_process_t;$/;"	t	typeref:struct:__anon2ade57650108
+dhms_record_version	dhms_process.c	/^static void dhms_record_version(dhms_process_t *dhms_process)$/;"	f	typeref:typename:void	file:
+endl	parse.c	/^char * endl = 0;$/;"	v	typeref:typename:char *
+ensure	cJSON.c	/^static unsigned char* ensure(printbuffer * const p, size_t needed)$/;"	f	typeref:typename:unsigned char *	file:
+env	dhms_process.h	/^	char ** env;$/;"	m	struct:__anon2ade57650108	typeref:typename:char **
+envlen	dhms_process.h	/^	unsigned int envlen;$/;"	m	struct:__anon2ade57650108	typeref:typename:unsigned int
+error	cJSON.c	/^} error;$/;"	t	typeref:struct:__anon7b2d70730108	file:
+false	cJSON.c	/^#define false /;"	d	file:
+format	cJSON.c	/^    cJSON_bool format; \/* is this print a formatted print *\/$/;"	m	struct:__anon7b2d70730308	typeref:typename:cJSON_bool	file:
+getNameByPid	dhms_process.c	/^ void getNameByPid(pid_t pid, char *task_name) {$/;"	f	typeref:typename:void
+getPidByName	dhms_process.c	/^void getPidByName(pid_t *pid, char *task_name)$/;"	f	typeref:typename:void
+get_array_item	cJSON.c	/^static cJSON* get_array_item(const cJSON *array, size_t index)$/;"	f	typeref:typename:cJSON *	file:
+get_decimal_point	cJSON.c	/^static unsigned char get_decimal_point(void)$/;"	f	typeref:typename:unsigned char	file:
+get_object_item	cJSON.c	/^static cJSON *get_object_item(const cJSON * const object, const char * const name, const cJSON_b/;"	f	typeref:typename:cJSON *	file:
+get_process_verison	dhms_process.c	/^inline void get_process_verison(char * cmd,char * *version,int *version_len)$/;"	f	typeref:typename:void
+global_error	cJSON.c	/^static error global_error = { NULL, 0 };$/;"	v	typeref:typename:error	file:
+global_hooks	cJSON.c	/^static internal_hooks global_hooks = { internal_malloc, internal_free, internal_realloc };$/;"	v	typeref:typename:internal_hooks	file:
+hooks	cJSON.c	/^    internal_hooks hooks;$/;"	m	struct:__anon7b2d70730208	typeref:typename:internal_hooks	file:
+hooks	cJSON.c	/^    internal_hooks hooks;$/;"	m	struct:__anon7b2d70730308	typeref:typename:internal_hooks	file:
+init_daemon_list	dhms_process.c	/^void init_daemon_list(unsigned int list_size)$/;"	f	typeref:typename:void
+internal_free	cJSON.c	/^#define internal_free /;"	d	file:
+internal_free	cJSON.c	/^static void CJSON_CDECL internal_free(void *pointer)$/;"	f	typeref:typename:void CJSON_CDECL	file:
+internal_hooks	cJSON.c	/^typedef struct internal_hooks$/;"	s	file:
+internal_hooks	cJSON.c	/^} internal_hooks;$/;"	t	typeref:struct:internal_hooks	file:
+internal_malloc	cJSON.c	/^#define internal_malloc /;"	d	file:
+internal_malloc	cJSON.c	/^static void * CJSON_CDECL internal_malloc(size_t size)$/;"	f	typeref:typename:void * CJSON_CDECL	file:
+internal_realloc	cJSON.c	/^#define internal_realloc /;"	d	file:
+internal_realloc	cJSON.c	/^static void * CJSON_CDECL internal_realloc(void *pointer, size_t size)$/;"	f	typeref:typename:void * CJSON_CDECL	file:
+isinf	cJSON.c	/^#define isinf(/;"	d	file:
+isnan	cJSON.c	/^#define isnan(/;"	d	file:
+json	cJSON.c	/^    const unsigned char *json;$/;"	m	struct:__anon7b2d70730108	typeref:typename:const unsigned char *	file:
+kill_process	dhms_process.c	/^static void kill_process(pid_t pid)$/;"	f	typeref:typename:void	file:
+length	cJSON.c	/^    size_t length;$/;"	m	struct:__anon7b2d70730208	typeref:typename:size_t	file:
+length	cJSON.c	/^    size_t length;$/;"	m	struct:__anon7b2d70730308	typeref:typename:size_t	file:
+lockfile	dhms_daemon.c	/^int lockfile(int fd)$/;"	f	typeref:typename:int
+main	daemon_test.c	/^int main(int argc，char **argv)$/;"	f	typeref:typename:int
+main	dhms_daemon.c	/^int main()$/;"	f	typeref:typename:int
+minify_string	cJSON.c	/^static void minify_string(char **input, char **output) {$/;"	f	typeref:typename:void	file:
+next	cJSON.h	/^    struct cJSON *next;$/;"	m	struct:cJSON	typeref:struct:cJSON *
+noalloc	cJSON.c	/^    cJSON_bool noalloc;$/;"	m	struct:__anon7b2d70730308	typeref:typename:cJSON_bool	file:
+objects	Makefile	/^objects = dhms_daemon.o dhms_process.o parse.o cJSON.o$/;"	m
+objname	Makefile	/^objname = dhms_daemon$/;"	m
+offset	cJSON.c	/^    size_t offset;$/;"	m	struct:__anon7b2d70730208	typeref:typename:size_t	file:
+offset	cJSON.c	/^    size_t offset;$/;"	m	struct:__anon7b2d70730308	typeref:typename:size_t	file:
+parse_array	cJSON.c	/^static cJSON_bool parse_array(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	typeref:typename:cJSON_bool	file:
+parse_buffer	cJSON.c	/^} parse_buffer;$/;"	t	typeref:struct:__anon7b2d70730208	file:
+parse_daemon_list	parse.c	/^static void parse_daemon_list(cJSON* root)$/;"	f	typeref:typename:void	file:
+parse_h	parse.h	/^#define parse_h$/;"	d
+parse_hex4	cJSON.c	/^static unsigned parse_hex4(const unsigned char * const input)$/;"	f	typeref:typename:unsigned	file:
+parse_json	parse.c	/^int parse_json(const char *filename)$/;"	f	typeref:typename:int
+parse_number	cJSON.c	/^static cJSON_bool parse_number(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	typeref:typename:cJSON_bool	file:
+parse_object	cJSON.c	/^static cJSON_bool parse_object(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	typeref:typename:cJSON_bool	file:
+parse_string	cJSON.c	/^static cJSON_bool parse_string(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	typeref:typename:cJSON_bool	file:
+parse_value	cJSON.c	/^static cJSON_bool parse_value(cJSON * const item, parse_buffer * const input_buffer)$/;"	f	typeref:typename:cJSON_bool	file:
+path	dhms_process.h	/^	char * path;$/;"	m	struct:__anon2ade57650108	typeref:typename:char *
+pid	dhms_process.h	/^	pid_t pid;$/;"	m	struct:__anon2ade57650108	typeref:typename:pid_t
+position	cJSON.c	/^    size_t position;$/;"	m	struct:__anon7b2d70730108	typeref:typename:size_t	file:
+prev	cJSON.h	/^    struct cJSON *prev;$/;"	m	struct:cJSON	typeref:struct:cJSON *
+print	cJSON.c	/^static unsigned char *print(const cJSON * const item, cJSON_bool format, const internal_hooks * /;"	f	typeref:typename:unsigned char *	file:
+print_array	cJSON.c	/^static cJSON_bool print_array(const cJSON * const item, printbuffer * const output_buffer)$/;"	f	typeref:typename:cJSON_bool	file:
+print_number	cJSON.c	/^static cJSON_bool print_number(const cJSON * const item, printbuffer * const output_buffer)$/;"	f	typeref:typename:cJSON_bool	file:
+print_object	cJSON.c	/^static cJSON_bool print_object(const cJSON * const item, printbuffer * const output_buffer)$/;"	f	typeref:typename:cJSON_bool	file:
+print_string	cJSON.c	/^static cJSON_bool print_string(const cJSON * const item, printbuffer * const p)$/;"	f	typeref:typename:cJSON_bool	file:
+print_string_ptr	cJSON.c	/^static cJSON_bool print_string_ptr(const unsigned char * const input, printbuffer * const output/;"	f	typeref:typename:cJSON_bool	file:
+print_value	cJSON.c	/^static cJSON_bool print_value(const cJSON * const item, printbuffer * const output_buffer)$/;"	f	typeref:typename:cJSON_bool	file:
+printbuffer	cJSON.c	/^} printbuffer;$/;"	t	typeref:struct:__anon7b2d70730308	file:
+process_count	dhms_process.h	/^	int process_count;$/;"	m	struct:__anon2ade57650208	typeref:typename:int
+rc	dhms_daemon.c	/^int rc;$/;"	v	typeref:typename:int
+recovery_process	dhms_process.c	/^static int recovery_process(char * process_path)$/;"	f	typeref:typename:int	file:
+replace_daemon_list	parse.c	/^void replace_daemon_list(char ** value,char * src)$/;"	f	typeref:typename:void
+replace_item_in_object	cJSON.c	/^static cJSON_bool replace_item_in_object(cJSON *object, const char *string, cJSON *replacement, /;"	f	typeref:typename:cJSON_bool	file:
+retry_count	dhms_process.h	/^	unsigned int retry_count;$/;"	m	struct:__anon2ade57650108	typeref:typename:unsigned int
+run_process	dhms_process.c	/^static void run_process(dhms_process_t * dhms_process)$/;"	f	typeref:typename:void	file:
+run_shell	dhms_process.c	/^static int run_shell(char *cmdstring, char **buf, int *len)\/\/注意:buf此函数内仅分配内/;"	f	typeref:typename:int	file:
+sig_usr	dhms_daemon.c	/^static void sig_usr(int signo)$/;"	f	typeref:typename:void	file:
+sig_usr2	dhms_daemon.c	/^static void sig_usr2(int signo)$/;"	f	typeref:typename:void	file:
+skip_multiline_comment	cJSON.c	/^static void skip_multiline_comment(char **input)$/;"	f	typeref:typename:void	file:
+skip_oneline_comment	cJSON.c	/^static void skip_oneline_comment(char **input)$/;"	f	typeref:typename:void	file:
+skip_utf8_bom	cJSON.c	/^static parse_buffer *skip_utf8_bom(parse_buffer * const buffer)$/;"	f	typeref:typename:parse_buffer *	file:
+static_strlen	cJSON.c	/^#define static_strlen(/;"	d	file:
+string	cJSON.h	/^    char *string;$/;"	m	struct:cJSON	typeref:typename:char *
+suffix_object	cJSON.c	/^static void suffix_object(cJSON *prev, cJSON *item)$/;"	f	typeref:typename:void	file:
+task_delay	dhms_daemon.c	/^int task_delay=300;$/;"	v	typeref:typename:int
+true	cJSON.c	/^#define true /;"	d	file:
+type	cJSON.h	/^    int type;$/;"	m	struct:cJSON	typeref:typename:int
+update_offset	cJSON.c	/^static void update_offset(printbuffer * const buffer)$/;"	f	typeref:typename:void	file:
+update_version	dhms_process.c	/^static int update_version(char *path,char *version)$/;"	f	typeref:typename:int	file:
+utf16_literal_to_utf8	cJSON.c	/^static unsigned char utf16_literal_to_utf8(const unsigned char * const input_pointer, const unsi/;"	f	typeref:typename:unsigned char	file:
+valuedouble	cJSON.h	/^    double valuedouble;$/;"	m	struct:cJSON	typeref:typename:double
+valueint	cJSON.h	/^    int valueint;$/;"	m	struct:cJSON	typeref:typename:int
+valuestring	cJSON.h	/^    char *valuestring;$/;"	m	struct:cJSON	typeref:typename:char *
+ver	dhms_process.h	/^	char * ver;$/;"	m	struct:__anon2ade57650108	typeref:typename:char *
